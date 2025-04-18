@@ -1,0 +1,2 @@
+/books -> get post
+/books/id -> get,delete,put
