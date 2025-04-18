@@ -42,7 +42,7 @@
       "author": "Yuval Noah Harari",
       "year": 2011,
       "genre": "History",
-      "price": 25.0,
+      "price": 25,
       "inStock": true
     },
     {
@@ -87,8 +87,35 @@
       "author": "Cal Newport",
       "year": 2016,
       "genre": "Productivity",
-      "price": 17.0,
+      "price": 17,
       "inStock": false
+    },
+    {
+      "title": "Bir developerin həyatı",
+      "author": "Hüseyn Dərya",
+      "year": 2003,
+      "genre": "Programming",
+      "price": 200,
+      "inStock": true,
+      "id": "c15564b9-c6e3-4613-b7e3-b22c28a547f0"
+    },
+    {
+      "title": "yaxsi kod yazanlar",
+      "author": "Hüseyn Dərya",
+      "year": 2003,
+      "genre": "Programming",
+      "price": 200,
+      "inStock": true,
+      "id": "a65c7811-899b-497e-bff0-e19f3b008290"
+    },
+    {
+      "title": "yaxsi kod yazmayanlar",
+      "author": "Hüseyn Dərya",
+      "year": 2003,
+      "genre": "Programming",
+      "price": 200,
+      "inStock": true,
+      "id": "b6213556-4658-46d0-918f-0ea85c937526"
     }
   ]
 }
