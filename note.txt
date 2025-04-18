@@ -1,2 +1,5 @@
-/books -> get post
-/books/id -> get,delete,put
+/books -> get        |  +  
+/books -> post       |  +
+/books/id -> get     |  -
+/books/id -> delete  |  -
+/books/id -> put     |  -
