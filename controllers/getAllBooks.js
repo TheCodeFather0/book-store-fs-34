@@ -1,4 +1,5 @@
 import { readFileSync } from "fs";
+import internalServerError from "../helpers/internalServerError.js";
 
 const getAllBooks = (req, res) => {
   try {
@@ -6,10 +7,7 @@ const getAllBooks = (req, res) => {
     const { books } = JSON.parse(data);
     res.send(books);
   } catch (err) {
-    res.status(500).send({
-      status: 500,
-      message: "Serverdə xəta baş verdi",
-    });
+    internalServerError();
   }
 };
 
