@@ -4,10 +4,12 @@ import getAllBooks from "./controllers/getAllBooks.js";
 import getBookById from "./controllers/getBookById.js";
 import createNewBook from "./controllers/createNewBook.js";
 import deleteBookById from "./controllers/deleteBookById.js";
+import cors from "cors";
 
 const port = 8080;
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 // GET REQUESTS
 app.get("/", homeController);
