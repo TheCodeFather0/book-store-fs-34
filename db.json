@@ -1,15 +1,6 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "The Pragmatic Programmer",
-      "author": "Andrew Hunt",
-      "year": 1999,
-      "genre": "Programming",
-      "price": 39.99,
-      "inStock": true
-    },
-    {
       "id": 2,
       "title": "Clean Code",
       "author": "Robert C. Martin",
